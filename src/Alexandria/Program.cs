@@ -30,8 +30,16 @@ namespace Alexandria
                     break;
                 }
 
-                var book = alexandria.FindBook(input);
-                Console.WriteLine($"Title:{book.title}\nAuthor:{book.author}");
+                try
+                {
+                    var book = alexandria.FindBook(input);
+                    Console.WriteLine($"Title:{book.title}\nAuthor:{book.author}");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
             }
 
         }
