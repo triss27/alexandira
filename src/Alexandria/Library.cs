@@ -10,7 +10,7 @@ namespace Alexandria
             this.shelf = new List<Book>();
         }
 
-        private string name;
+        public string name {get; private set;}
         private List<Book> shelf;
 
 
