@@ -25,10 +25,11 @@ namespace Alexandria
             {
                 Console.WriteLine("Enter a title search for (or press Enter to exit):");
                 var input = Console.ReadLine();
-                if (input.Length == 0)
+                if (string.IsNullOrEmpty(input))
                 {
                     break;
                 }
+
                 var book = alexandria.FindBook(input);
                 Console.WriteLine($"Title:{book.title}\nAuthor:{book.author}");
             }
