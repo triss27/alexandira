@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{26536573-BD78-4AA3-ABC2-62E45BC8822D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexandria", "src\Alexandria\Alexandria.csproj", "{17CD1422-AE41-4F19-B22B-D6116BCD0294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ECB872E7-8091-43C8-9B63-94FB8AC01005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alexandria.Tests", "test\Alexandria.Tests\Alexandria.Tests.csproj", "{6B3CBA35-6987-4BC5-B4C7-7CACE6FCEAE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17CD1422-AE41-4F19-B22B-D6116BCD0294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CD1422-AE41-4F19-B22B-D6116BCD0294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CD1422-AE41-4F19-B22B-D6116BCD0294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CD1422-AE41-4F19-B22B-D6116BCD0294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3CBA35-6987-4BC5-B4C7-7CACE6FCEAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3CBA35-6987-4BC5-B4C7-7CACE6FCEAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3CBA35-6987-4BC5-B4C7-7CACE6FCEAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3CBA35-6987-4BC5-B4C7-7CACE6FCEAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17CD1422-AE41-4F19-B22B-D6116BCD0294} = {26536573-BD78-4AA3-ABC2-62E45BC8822D}
+		{6B3CBA35-6987-4BC5-B4C7-7CACE6FCEAE1} = {ECB872E7-8091-43C8-9B63-94FB8AC01005}
+	EndGlobalSection
+EndGlobal
